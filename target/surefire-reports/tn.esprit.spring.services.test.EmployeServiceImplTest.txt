@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: tn.esprit.spring.services.test.EmployeServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 7.566 s <<< FAILURE! - in tn.esprit.spring.services.test.EmployeServiceImplTest
+testCountEmployeFailure(tn.esprit.spring.services.test.EmployeServiceImplTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<4>
+	at tn.esprit.spring.services.test.EmployeServiceImplTest.testCountEmployeFailure(EmployeServiceImplTest.java:57)
+
+testAjouterDepartement(tn.esprit.spring.services.test.EmployeServiceImplTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<3>
+	at tn.esprit.spring.services.test.EmployeServiceImplTest.testAjouterDepartement(EmployeServiceImplTest.java:64)
+
+testAffecterEmployeADepartementFailure(tn.esprit.spring.services.test.EmployeServiceImplTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: affectation échoué 
+	at tn.esprit.spring.services.test.EmployeServiceImplTest.testAffecterEmployeADepartementFailure(EmployeServiceImplTest.java:78)
+
+testAjouterEmployeSuccess(tn.esprit.spring.services.test.EmployeServiceImplTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<5>
+	at tn.esprit.spring.services.test.EmployeServiceImplTest.testAjouterEmployeSuccess(EmployeServiceImplTest.java:36)
+
+testCountEmployeSuccess(tn.esprit.spring.services.test.EmployeServiceImplTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<6>
+	at tn.esprit.spring.services.test.EmployeServiceImplTest.testCountEmployeSuccess(EmployeServiceImplTest.java:50)
+
