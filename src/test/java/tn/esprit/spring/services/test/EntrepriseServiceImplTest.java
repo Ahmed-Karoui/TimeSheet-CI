@@ -31,6 +31,7 @@ private static final Logger logger = LogManager.getLogger(EmployeServiceImpl.cla
 	
 	@Autowired
 	IEntrepriseService entrepriseServiceImpl ;
+	@Autowired
 	IEmployeService employeServiceImpl;
 	
 	@Test
@@ -49,6 +50,6 @@ private static final Logger logger = LogManager.getLogger(EmployeServiceImpl.cla
 	@Test
 	public void testAjouterDepartement() {
 		logger.info(" Le test de la methode Ajout Departement .... ");
-		assertEquals(11, employeServiceImpl.ajouterDepartement(new Departement("Departement Informatique")));
+		assertEquals(21, employeServiceImpl.ajouterDepartement(new Departement("Departement Informatique")));
 	}
 }
