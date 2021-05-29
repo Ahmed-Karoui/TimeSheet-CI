@@ -37,19 +37,19 @@ private static final Logger logger = LogManager.getLogger(EmployeServiceImpl.cla
 	@Test
 	public void testAjouterEntreprise() {
 		logger.info(" Le test de la methode Ajout Entreprise .... ");
-		assertEquals(6, entrepriseServiceImpl.ajouterEntreprise(new Entreprise("TestBouhmid","Bouhmid")));
+		assertEquals(7, entrepriseServiceImpl.ajouterEntreprise(new Entreprise("TestBouhmid","Bouhmid")));
 					
 	}
 	
 	@Test
 	public void testAjouterEmployeFailure() {
 		logger.info(" Le test de la methode Ajout Entreprise.... ");
-		assertNotEquals(2, entrepriseServiceImpl.ajouterEntreprise(new Entreprise("TestBouhmid","Bouhmid")));
+		assertNotEquals(55, entrepriseServiceImpl.ajouterEntreprise(new Entreprise("TestBouhmid","Bouhmid")));
 
 }
 	@Test
 	public void testAjouterDepartement() {
 		logger.info(" Le test de la methode Ajout Departement .... ");
-		assertEquals(22, employeServiceImpl.ajouterDepartement(new Departement("Departement Informatique")));
+		assertEquals(25, employeServiceImpl.ajouterDepartement(new Departement("Departement Informatique")));
 	}
 }
