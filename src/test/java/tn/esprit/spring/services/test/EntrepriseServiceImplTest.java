@@ -44,7 +44,7 @@ private static final Logger logger = LogManager.getLogger(EmployeServiceImpl.cla
 	@Test
 	public void testAjouterEmployeFailure() {
 		logger.info(" Le test de la methode Ajout Entreprise.... ");
-		assertNotEquals(2, entrepriseServiceImpl.ajouterEntreprise(new Entreprise("TestBouhmid","Bouhmid")));
+		assertNotEquals(10, entrepriseServiceImpl.ajouterEntreprise(new Entreprise("TestBouhmid","Bouhmid")));
 
 }
 	@Test
